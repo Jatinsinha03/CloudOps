@@ -63,7 +63,7 @@ body {
   flex: 1;
   font-size: 30px;
   color: #000;
-  padding-top: 40px;
+  padding-top: 150px;
 }
 
 .ends {
@@ -169,4 +169,161 @@ main {
   margin-bottom: -0.2vh;
   background: var(--dark);
   display: block;
+}
+
+/* Footer Styles */
+p,
+a {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  transition: 200ms;
+}
+
+a {
+  color: #ced9bf;
+}
+
+a:hover {
+  opacity: 0.7;
+}
+
+body {
+  margin: 0;
+}
+
+/* Footer Styles */
+.footer {
+  height: auto;
+  background-color: black;
+  min-width: 280px;
+  overflow: hidden; /* Hide content overflow */
+}
+
+/* Contact Section Styles */
+.contact-wrapper {
+  height: 80vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 900;
+  overflow: hidden; /* Hide content overflow */
+}
+
+.contact-div {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  height: 60%;
+  max-width: 800px;
+  background-color: #0054dbcb;
+  border-radius: 25px;
+  margin: 20px;
+  padding: 20px;
+
+  > div {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    margin-top: 15px;
+  }
+
+  > div:first-child {
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+  }
+
+  > div:last-child {
+    > div {
+      flex: 1;
+      text-align: center;
+
+      > img {
+        margin-bottom: 10px;
+        max-width: 100px;
+        max-height: 100px;
+      }
+
+      a {
+        display: block;
+        color: white;
+      }
+    }
+  }
+}
+
+/* Info Section Styles */
+.info-wrapper {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: white;
+  padding-top: 50px;
+  padding-bottom: 100px;
+  overflow: hidden; /* Hide content overflow */
+
+  > div {
+    flex: 1;
+    margin-left: 10px;
+    margin-right: 10px;
+
+    > p:first-child {
+      font-weight: 900;
+      padding-bottom: 15px;
+    }
+
+    a {
+      display: block;
+      padding-bottom: 5px;
+      color: blue;
+    }
+  }
+
+  > div:first-child {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+  }
+
+  .brand-logo {
+    max-width: 150px;
+  }
+}
+
+/* Credits Section Styles */
+.credits-div {
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden; /* Hide content overflow */
+
+  .divider-line {
+    height: 1px;
+    width: 80%;
+    background-color: white;
+    margin: 10px 0;
+  }
+
+  > p {
+    padding-left: 10px;
+    color: white;
+  }
+}
+
+/* Media Queries for Responsive Design */
+@media only screen and (max-width: 768px) {
+  .contact-div {
+    width: 90%;
+  }
+
+  .info-wrapper {
+    padding: 10px;
+  }
 }
