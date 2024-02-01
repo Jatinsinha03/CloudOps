@@ -7,14 +7,14 @@ body {
   font-size: 12px;
   overflow: hidden;
   overflow-y: scroll;
-  color: #2e8bc0;
+  color: #69c8ff;
   --light: #e6f03a;
   --light: #eee;
   --dark: #161616;
+  background-image: url(XzZg.gif);
 }
 
 .wrapper {
-  background-image: url(dominik-schroder-FIKD9t5_5zQ-unsplash.jpg);
   background-size: cover;
   height: 100vh;
   position: relative;
@@ -24,9 +24,10 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding-top: 20px;
+  padding-top: 30px;
   text-transform: uppercase;
   font-weight: 600;
+  font-size: 15px;
 }
 .logo {
   font-size: 40px;
@@ -38,7 +39,7 @@ body {
 .contents {
   position: absolute;
   top: 46%;
-  left: 52%;
+  left: 39%;
   transform: translate(-50%, -50%);
   display: flex;
   flex-wrap: wrap;
@@ -51,11 +52,18 @@ body {
   font-size: 180px;
   text-transform: uppercase;
   font-weight: 700;
+  color: white;
 }
+
+
+
+
+
+
 .tagline {
   flex: 1;
   font-size: 27px;
-  color: #000;
+  color: #a4a4a4;
   padding-top: 65px;
 }
 .ends {
@@ -145,9 +153,9 @@ main {
 } */
 .register{
   color: rgb(15, 75, 205);
-    background-color: rgba(255, 255, 255, 1);
-    border: 1px solid rgb(67, 157, 231);
-    cursor: pointer;
+  background-color: rgba(255, 255, 255, 1);
+  border: 1px solid rgb(67, 157, 231);
+  cursor: pointer;
   border: 0;
   border-radius: 4px;
   font-weight: 600;
@@ -156,10 +164,9 @@ main {
   padding: 20px 5px;
   box-shadow: 0 0 20px rgba(0, 162, 255, 0.6);
   transition: 0.4s;
-  margin-left:265px;
-  margin-top: 30px;
+  margin-left:450px;
+  margin-top: 80px;
   font-size: 16px;
-
 }
 
 
@@ -242,7 +249,7 @@ main {
   height: 1.1vh;
   width: 50vw;
   margin-bottom: -0.2vh;
-  background-color: #2e8bc0;
+  background-color: #46015fa9;
   display: block;
 
 }
@@ -273,7 +280,7 @@ body {
 /* Footer Styles */
 .footer {
   height: auto;
-  background-color:#2e8bc0;
+  background-color:none;
   min-width: 280px;
   overflow: hidden; /* Hide content overflow */
 }
@@ -325,8 +332,14 @@ body {
       }
 
       a {
+        padding-top: 10px;
         display: block;
-        color: white;
+        color: rgb(0, 32, 78);
+        font-size: 17px;
+      }
+
+      >p{
+        font-size: 19px;
       }
     }
   }
@@ -337,7 +350,7 @@ body {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-  background-color: white;
+  background-color: #ffffffcb;
   padding-top: 50px;
   padding-bottom: 100px;
   overflow: hidden; /* Hide content overflow */
