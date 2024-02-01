@@ -376,11 +376,11 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 20px;
+    /* padding-top: 10px; */
   }
 
   .brand-logo {
-    max-width: 150px;
+    max-width: 350px;   
   }
 }
 
