@@ -130,8 +130,9 @@ main {
   text-transform: uppercase;
   font-size: 4.6rem;
   line-height: 1.25em;
-  font-weight: 500;
+  font-weight: 800;
   z-index: 3;
+
 }
 
 /* Register button */
@@ -253,6 +254,42 @@ main {
   display: block;
 
 }
+
+/* Speaker Details */
+.column{
+  flex: 50%;
+}
+
+/* Clear floats after the columns */
+.speaker {
+  display: flex;
+}
+
+.speaker-image{
+  position: absolute;
+  z-index: 2;
+  padding-top: 95px;
+  height: 450px;
+}
+
+.shape{
+  width: 700px;
+  position: relative;
+  z-index: 1;
+}
+
+.our-speaker{
+  padding: 120px 60px 40px 60px;
+  font-size: 70px;
+}
+
+.speaker-detail{
+  color: white;
+  font-size: 25px;
+  text-align: justify;
+  padding: 0px 60px;
+}
+
 
 /* Footer Styles */
 p,
