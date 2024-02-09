@@ -31,8 +31,10 @@ body {
 }
 .logo {
   font-size: 40px;
+  color: white;
 }
 .menu-links ul li {
+  color: white;
   display: inline-block;
   padding-right: 20px;
 }
