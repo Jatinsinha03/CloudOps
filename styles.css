@@ -38,6 +38,11 @@ body {
   display: inline-block;
   padding-right: 20px;
 }
+.carousel-container {
+  transition: transform 0.5s ease-in-out;
+}
+
+
 .contents {
   position: absolute;
   top: 46%;
@@ -242,8 +247,23 @@ main {
 }
 
 /* Speaker Details */
+.ends2 {
+  min-height: 40vh;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-size: 70px;
+  font-weight: bold;
+}
+
+
 .column{
   flex: 50%;
+}
+
+.column2{
+  padding-top: 60px;
 }
 
 /* Clear floats after the columns */
